@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+P {
+    font-family: Helvetica Neue, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+header div:first-child  {
+    display: flex;
+    width: 50%;
+    gap: 40px;
+    left: 20px;
+    margin-left: 20px;
+}
+
+header div:last-child {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+#icons-div {
+    display: flex;
+}
+
+#icons {
+    margin-left: 850px;
+    padding: px;
+}
+
+#icons img:nth-child(1) {
+    margin-bottom: 20px;
+}
+
+#icons img:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#second {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+#second p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-left: 50px;  
+}
+
+span {
+    color: #b62a26;
+    font-weight: bold;
+}
+
+i {
+    color: #b62a26;
+    margin-left: 5px;
+}
+
+#tools {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 350px;
+    height: 260px;
+    border: 1px solid rgb(206, 202, 202);
+}
+
+#tools span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 5px;
+    font-weight: 100;
+    color: #545353;
+}
+
+#tools-text {
+    background-color: #b62a26;
+    width: 350px;
+    height: 30px;
+}
+
+#tools-text p {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+#third {
+    display: flex;
+    flex-direction: column;
+}
+
+#third p {
+    margin-top: 15px;
+    border: px solid rgb(200, 198, 198);
+    height: 40px;
+}
+
+hr {
+    height: 1px;
+    opacity: 0.5;
+}
+
+#track-consignment {
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 1050px;
+    height: 350px;
+    border: 0.5px solid rgb(200, 198, 198) ;
+    border-radius: 5px;
+}
+
+#tools-track {
+    display: flex;
+}
+
+h2 {
+    color: #b62a26;
+    font-family: Helvetica Neue, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+a {
+    position: relative;
+    left: 960px;
+    bottom: 8px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+h5 {
+    position: relative;
+    left: 10px;
+    top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+h5::before {
+    content: "*";
+    color: #b62a26;
+}
+
+#input-area {
+    background-color: #f5f5f5;
+    width: 1030px;
+    height: 200px;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(200, 198, 198) ;
+}
+
+#input-area p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#input-area div:first-child {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    top: 20px;
+}
+
+#input-area h5 {
+    font-size: 15px;
+}
+
+#input-area div:nth-child(2) {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.consignment-text {
+    position: relative;
+    left: 250px;
+    width: 350px;
+    height: 30px;
+    border: 1px solid rgb(200, 198, 198) ;
+    border-radius: 4px;
+}
+
+#input-area div:nth-child(3) {
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+
+#input-area div:nth-child(4) {
+    position: relative;
+    left: 350px;
+    top: 30px;
+}
+
+button {
+    margin: 8px;
+    height: 30px;
+    width: 60px;
+    background-color: #b62a26;
+    color: white;
+    border: 0.5px solid #d43f3a;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    top: 50px;
+    /* justify-content: space-between; */
+    left: 30px;
+}
+
+.foot {
+    position: relative;
+    left: -200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 200px;
+}
+
+footer p {
+    font-weight: 300;
+    color: #4b4c4d;
+}
+
+#images {
+    position: relative;
+    left: 40px;
+    top: 20px;
+    display: flex;
+    gap: 50px;
+    height: 30px;
+    width: 0px;
+}
+
+#last {
+    position: relative;
+    top: 60px;
+    text-align: center;
+    width: 1000px;
+}
+
+#last p {
+    font-weight: 400;
+    position: relative;
+    left: 250px;
+}
+
+#last span:nth-child(1) {
+    color: black;
+    font-weight: 600;
+}
+
+#last span:nth-child(2) {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+#last span:nth-child(3) {
+    color: black;
+    font-weight: 600;
+}
+
+#external-link {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
